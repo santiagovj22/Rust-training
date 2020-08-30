@@ -17,7 +17,7 @@ fn main() {
     // let element = a[index];
 
     println!("The value of element is: {}", a[1]);
-    function(6,6)
+    main2(3,2)
 
 }
 
@@ -28,4 +28,9 @@ fn function(number_one: i32, number_two: i32){
     } else {
         println!("No")
     }
+}
+
+
+fn main2(c:i32, d: i32){
+   function(c,d)
 }
